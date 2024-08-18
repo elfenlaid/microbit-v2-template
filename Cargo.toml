@@ -1,0 +1,12 @@
+[package]
+name = "micro-v2-template"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+cortex-m = { version = "0.7.7", features = ["critical-section-single-core"] }
+cortex-m-rt = "0.7.3"
+microbit-v2 = "0.15.1"
+rtt-target = "0.5.0"
+embedded-hal = "1.0.0"
+panic-rtt-target = "0.1.3"
